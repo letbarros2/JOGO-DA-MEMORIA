@@ -1,6 +1,6 @@
 # JOGO-DA-MEMORIA
 
-Repositório criado com aulas de Javascript ofertado pela DIO, na qual fiz a minha versão utilizando  o jogo da memória com a temática de Marvio Studios! 
+Repositório criado com aulas de Javascript ofertado pela DIO, na qual fiz a minha versão utilizando  o jogo da memória com a temática de Marvel Studios! 
 
 ### Ferramentas utilizadas:
 
