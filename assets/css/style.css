@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     display: flex;
-    background-color: rgb(54,189,189);
+    background-color: rgb(189, 28, 7);
 }
 .memory-game{
     height: 640px;
@@ -15,15 +15,20 @@ body{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    /*ADICIONANDO EIXO Y - PESPECTIVE*/
+    perspective: 1000px;
 }
 .card{
-    height: calc(33,333% - 10px);
+    height: calc(33.333% - 10px);
     width: calc(25% - 10px);
     margin: 5px;
     position: relative;
     box-shadow: 1px 1px 1px rgba(1,1, 1,-3);
     cursor:pointer;
     transform: scale(1);
+    transform-style:preserve-3d;
+    transition: transform .9s;
+    /*USANDO PARA NAO DEIXAR OS ELEMENTOS ACHATADOS*/
 }
 .card:active{
     transform: scale(0.97);
@@ -31,11 +36,19 @@ body{
     /*ADICIONADO AO CLICAR NO CARD*/
 }
 .card-front,
-.cart-back{
+.card-back{
     width: 100%;
     height: 100%;
     padding: 20px;
     position: absolute;
     border-radius: 5px;
     background: #ffffff;
+    backface-visibility: hidden;
+    /*TIRANDO O VERSO DO ELEMENTO*/
+}
+.card-front{
+    transform: rotateY(180deg);
+}
+.card.flip{
+    transform: rotateY(180deg);
 }
