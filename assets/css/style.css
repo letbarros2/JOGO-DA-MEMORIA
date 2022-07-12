@@ -25,6 +25,11 @@ body{
     cursor:pointer;
     transform: scale(1);
 }
+.card:active{
+    transform: scale(0.97);
+    transition: transform .3s;
+    /*ADICIONADO AO CLICAR NO CARD*/
+}
 .card-front,
 .cart-back{
     width: 100%;
