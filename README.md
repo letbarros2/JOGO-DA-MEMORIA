@@ -27,7 +27,6 @@ Repositório criado com aulas de Javascript ofertado pela DIO, na qual fiz a min
 <ul>
     <li>
         <a href=""><img src="assets/img/GIF.gif"/></a>
-        
-    </li>
+
 </ul>
 ## 🚀 Let's code! 🚀
