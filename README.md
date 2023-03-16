@@ -17,4 +17,17 @@ Repositório criado com aulas de Javascript ofertado pela DIO, na qual fiz a min
     </li>
 </ul>
 
+<h1> COMEÇANDO JOGO </h1>
+<ul>
+    <li>
+        <a href=""><img src="assets/img/2.png"/></a>
+    </li>
+</ul>
+<h1> GIF ANIMADO </h1>
+<ul>
+    <li>
+        <a href=""><img src="assets/img/GIF.gif"/></a>
+        
+    </li>
+</ul>
 ## 🚀 Let's code! 🚀
