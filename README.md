@@ -10,6 +10,11 @@ Repositório criado com aulas de Javascript ofertado pela DIO, na qual fiz a min
 * [DIO](https://dio.me/sign-up?ref=1BBJE0QUYH)
 * 
  
-
+<h1> INICIO DE JOGO </h1>
+<ul>
+    <li>
+        <a href=""><img src="assets/img/1.png"/></a>
+    </li>
+</ul>
 
 ## 🚀 Let's code! 🚀
